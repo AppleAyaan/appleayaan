@@ -4,7 +4,7 @@
 
 <div>
 
-🎓 incoming student @ [**University of Waterloo**](https://uwaterloo.ca/) <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/19/University_of_Waterloo_logo.svg/256px-University_of_Waterloo_logo.svg.png" alt="University of Waterloo" width="25" /> [**University of Waterloo**](https://uwaterloo.ca/)
+🎓 incoming student @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
 🔭 i'm currently working on _my own personal website!_ 
 
