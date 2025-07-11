@@ -2,26 +2,21 @@
 
 <hr/>
 
-<div align="center">
-  <h1>💫 ABOUT ME 💫:</h1>
+<div>
 
-🔭 I'm currently working on _Power Stocks_
+🎓 incoming student @ **University of Waterloo** 
 
-🏢 Grade **12** Business SHSM Student
+🔭 i'm currently working on _my own personal website!_ 
 
-🏎 Avid **F1 Enthusiast** and Driver
+🏎 avid <img src="https://cdn.simpleicons.org/ferrari/ea0000" width="15" height="15" /> F1 Enthusiast
 
-📷 Photographer and Videographer at **@ayaan.visuals**
+📷 photographer at **@ayaan.visuals**
 </div>
 
-<hr/>
+[<img src="https://img.icons8.com/fluency/48/linkedin.png" width="35"/>](https://www.linkedin.com/in/ayaan-faisal-111991259/)
+[<img src="https://img.icons8.com/fluency/48/instagram-new.png" width="35"/>](https://www.instagram.com/ayaan.visuals)
 
-<div align="center">
 
-  <h1>🌐 Socials 🌐:</h1>
-
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ayaan.visuals) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ayaan-faisal-111991259) 
-</div>
 
 <hr/>
 
