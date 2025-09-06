@@ -4,7 +4,7 @@
 
 <div>
 
-🎓 incoming student @ [**University of Waterloo**](https://uwaterloo.ca/) 
+🎓 1A student @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
 🔭 i'm currently working on _my own personal website!_ 
 
