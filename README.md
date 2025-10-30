@@ -6,7 +6,7 @@
 
 🎓 1A student @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
-🔭 i'm currently working on _PackRight!_ 
+🔭 i'm currently working on _@ayaan.visuals website_ 
 
 🏎 avid <img src="https://cdn.simpleicons.org/ferrari/ea0000" width="15" height="15" /> F1 Enthusiast
 
