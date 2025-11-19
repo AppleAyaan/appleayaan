@@ -4,7 +4,7 @@
 
 <div>
 
-🎓 1A student @ [**University of Waterloo**](https://uwaterloo.ca/) 
+🎓 1A honours math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
 🔭 i'm currently working on _WATSpot_ 
 
