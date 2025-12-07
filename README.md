@@ -6,7 +6,7 @@
 
 🎓 1A honours math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
-🔭 i'm currently working on _ [watsmygpa](www.watsmygpa.me) and my finals_ 😖!! 
+🔭 i'm currently working on [watsmygpa](www.watsmygpa.me) and my 1A finals 😖!! 
 
 🏎 avid <img src="https://cdn.simpleicons.org/ferrari/ea0000" width="15" height="15" /> F1 Enthusiast
 
