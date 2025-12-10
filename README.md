@@ -13,7 +13,7 @@
 📷 photographer at [**@ayaan.visuals**](https://www.instagram.com/ayaan.visuals)
 </div>
 
-[<img src="https://img.icons8.com/fluency/48/linkedin.png" width="35"/>](https://www.linkedin.com/in/ayaan-faisal-111991259/)
+[<img src="https://img.icons8.com/fluency/48/linkedin.png" width="35"/>](https://www.linkedin.com/in/ayaanfaisal18/)
 [<img src="https://img.icons8.com/fluency/48/instagram-new.png" width="35"/>](https://www.instagram.com/ayaan.visuals)
 [<img src="https://img.icons8.com/fluency/48/mail" width="35"/>](mailto:a34faisa@uwaterloo.ca)
 
