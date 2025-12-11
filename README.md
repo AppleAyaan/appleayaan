@@ -4,7 +4,7 @@
 
 <div>
 
-🎓 1A honours math @ [**University of Waterloo**](https://uwaterloo.ca/) 
+🎓 1A math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
 🔭 i'm currently working on [watsmygpa](https://www.watsmygpa.me) and my 1A finals 😖!! 
 
