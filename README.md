@@ -4,7 +4,7 @@
 
 <div>
 
-🎓 1A math @ [**University of Waterloo**](https://uwaterloo.ca/) 
+🎓 1B math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
 🔭 i'm currently working on publishing [watsmygpa](https://www.watsmygpa.me)!! 
 
