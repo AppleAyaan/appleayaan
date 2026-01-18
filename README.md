@@ -10,7 +10,7 @@
 
 🏎 avid <img src="https://cdn.simpleicons.org/ferrari/ffffff" width="15" height="15" /> F1 enthusiast!
 
-📷 photographer at [**@ayaan.visuals**](https://www.instagram.com/ayaan.visuals)
+📷 photographer at: [**@ayaan.visuals**](https://www.instagram.com/ayaan.visuals)
 </div>
 
 [<img src="https://img.icons8.com/fluency/48/linkedin.png" width="35"/>](https://www.linkedin.com/in/ayaanfaisal18/)
