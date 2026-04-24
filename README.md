@@ -1,8 +1,6 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=700&size=42&pause=1000&color=73E9F7&center=true&vCenter=true&width=1350&lines=Hi!+I'm+Ayaan+Faisal.+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub.+%F0%9F%93%A3" alt="Typing SVG" /></a>
-
-<hr/>
-
-<div>
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Cookie&size=40&duration=2000&pause=1000&color=60D1FF&background=B3FFA200&center=true&vCenter=true&width=415&height=70&lines=hey%2C+i'm+ayaan!+%F0%9F%A4%9D;welcome+to+my+GitHub!+%F0%9F%91%80" alt="Typing SVG" /></a>
+</p>
 
 🎓 2A math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
@@ -14,4 +12,4 @@
 [<img src="https://img.icons8.com/fluency/48/linkedin.png" width="35"/>](https://www.linkedin.com/in/ayaanfaisal18/)
 [<img src="https://img.icons8.com/fluency/48/instagram-new.png" width="35"/>](https://www.instagram.com/ayaan.visuals)
 [<img src="https://img.icons8.com/fluency/48/mail" width="35"/>](mailto:a34faisa@uwaterloo.ca)
-<hr/>
+
