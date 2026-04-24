@@ -4,7 +4,7 @@
 
 🎓 2A math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
-🔭 i'm currently working on publishing [**WATsMyGPA**](https://www.watsmygpa.me)
+🔭 i just published [**WATsMyGPA**](https://www.watsmygpa.me)!! 
 
 📷 photographer at: [**@ayaan.visuals**](https://www.instagram.com/ayaan.visuals)
 </div>
