@@ -4,7 +4,7 @@
 
 🎓 2A math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
-🔭 i am working on my personal website: [ayaanfaisal.com](https://www.ayaanfaisal.com)
+🔭 i just published my personal website: [ayaanfaisal.com](https://www.ayaanfaisal.com)
 
 📷 photographer at: [**@ayaan.visuals**](https://www.instagram.com/ayaan.visuals)
 </div>
