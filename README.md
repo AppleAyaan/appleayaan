@@ -4,7 +4,7 @@
 
 🎓 2A math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
-🚧 check out this for [Mother's Day](https://happymothers-day2026.vercel.app/)!
+🚧 check out what I made for [Mother's Day](https://happymothers-day2026.vercel.app/)!
 
 🔭 i just published my personal website: [ayaanfaisal.com](https://www.ayaanfaisal.com)
 
