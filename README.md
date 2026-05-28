@@ -4,7 +4,7 @@
 
 🎓 2A math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
-🚧 check out what I built for [Mother's Day](https://happymothers-day2026.vercel.app/)!
+🏆 i just won at [OpenClaw](https://useagora.vercel.app/) and [Cursor](https://useelenchus.vercel.app/) during TTW 2026!
 
 🔭 i just published my personal website: [ayaanfaisal.com](https://www.ayaanfaisal.com)
 
