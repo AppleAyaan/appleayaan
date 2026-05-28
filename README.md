@@ -6,7 +6,7 @@
 
 🏆 i just won at [OpenClaw](https://useagora.vercel.app/) and [Cursor](https://useelenchus.vercel.app/) during TTW 2026!
 
-🔭 i just published my personal website: [ayaanfaisal.com](https://www.ayaanfaisal.com)
+🔭 checkout my personal website: [ayaanfaisal.com](https://www.ayaanfaisal.com)
 
 📷 photographer at: [**@ayaan.visuals**](https://www.instagram.com/ayaan.visuals)
 </div>
