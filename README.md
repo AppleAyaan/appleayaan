@@ -8,7 +8,7 @@
 
 🔭 checkout my personal website: [**ayaanfaisal.com**](https://www.ayaanfaisal.com)
 
-📷 photographer at: [**@ayaan.visuals**](https://www.instagram.com/ayaan.visuals)
+📷 _**creator, builder, philanthropist, vibe coder**_
 </div>
 
 [<img src="https://img.icons8.com/?size=100&id=DuuipuI9mFC8&format=png&color=ffffff" width="35"/>](https://www.ayaanfaisal.com)
