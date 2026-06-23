@@ -14,6 +14,6 @@
 [<img src="https://img.icons8.com/?size=100&id=DuuipuI9mFC8&format=png&color=ffffff" width="35"/>](https://www.ayaanfaisal.com)
 [<img src="https://img.icons8.com/?size=100&id=447&format=png&color=ffffff" width="35"/>](https://www.linkedin.com/in/ayaanfaisal18/)
 [<img src="https://img.icons8.com/?size=100&id=YfCbGWCWcuar&format=png&color=ffffff" width="35"/>](https://www.x.com/ayaanyyz/)
-[<img src="https://img.icons8.com/?size=100&id=eRJfQw0Zs44S&format=png&color=ffffff" width="35"/>](https://www.instagram.com/ayaan.visuals)
+[<img src="https://img.icons8.com/?size=100&id=eRJfQw0Zs44S&format=png&color=ffffff" width="35"/>](https://www.instagram.com/ayaanframes)
 
 
