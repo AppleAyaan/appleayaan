@@ -4,6 +4,8 @@
 
 🎓 2A math @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
+💼   agile swe @ [**TribalScale**](https://www.tribalscale.com/) 
+
 🏆 i won @ [**OpenClaw**](https://useagora.vercel.app/) and [**Cursor**](https://useelenchus.vercel.app/) during TTW 2026!!
 
 🔭 checkout my website: [**ayaanfaisal.com!**](https://www.ayaanfaisal.com)
