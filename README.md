@@ -4,7 +4,7 @@
 
 🎓 2B data science @ [**University of Waterloo**](https://uwaterloo.ca/) 
 
-💼   agile swe @ [**TribalScale**](https://www.tribalscale.com/) 
+💼   agile swe intern @ [**TribalScale**](https://www.tribalscale.com/) 
 
 🏆 i won @ [**OpenClaw**](https://useagora.vercel.app/) and [**Cursor**](https://useelenchus.vercel.app/) during TTW 2026!!
 
