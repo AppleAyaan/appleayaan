@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bungee+Inline&size=25&pause=1000&color=FFFFFFC0&center=true&vCenter=true&width=435&lines=hey%2C+i'm+Ayaan!+%F0%9F%91%8B+;welcome+to+my+GitHub!" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bungee+Inline&size=25&pause=1000&color=F5F8FF&center=true&vCenter=true&width=435&lines=hey%2C+i'm+Ayaan!+%F0%9F%91%8B+;welcome+to+my+GitHub!" alt="Typing SVG" /></a>
 </p>
 
 🎓 2B data science @ [**University of Waterloo**](https://uwaterloo.ca/) 
