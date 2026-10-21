@@ -31,6 +31,7 @@ An Apple-style ad on a minimal profile: light, simple, clean, fast, with smooth 
 
 ## notes
 
+- **Blur filters are only attached while the blur amount is changing.** A CSS `filter:url(#f)` ↔ `none` toggle runs alongside each SMIL blur. WebKit (iOS Safari, the GitHub app) renders filtered SVG content at low resolution, so a filter left attached at near-zero blur made sharp text look soft on phones. Keeping it attached while content was hidden also caused a Chrome paint glitch in the top-left corner.
 - Every animation shares one 10s clock. Times in the script are in seconds and are converted to keyframe percentages (CSS) or keyTimes (SMIL).
 - The lockup and logo placement depend on measured text widths (`NAME_W` and the widths in `STATUS`). If you change that text, re-measure it with fontTools (see below) or the layout will drift off center. `EMOJI_W` is an estimate, because emoji widths vary slightly by OS.
 - Glow drift periods divide 10s evenly (10s and 5s), so the background loops cleanly.
