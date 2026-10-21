@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bungee+Inline&size=25&pause=1000&color=F5F8FF&center=true&vCenter=true&width=435&lines=hey%2C+i'm+Ayaan!+%F0%9F%91%8B+;welcome+to+my+GitHub!" alt="Typing SVG" /></a>
+  <img src="assets/banner.svg" width="100%" alt="ayaan faisal: welcome to my github. always building, experimenting, vibecoding. you can just build things. student at uwaterloo, interning at tribalscale, seeking summer 2027 internships." />
 </p>
 
 🎓 2B data science @ [**University of Waterloo**](https://uwaterloo.ca/) 
