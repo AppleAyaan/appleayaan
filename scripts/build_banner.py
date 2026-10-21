@@ -21,10 +21,11 @@ OUT = ROOT / "assets" / "banner.svg"
 FONTS = Path(__file__).resolve().parent / "fonts"
 HEADSHOT = Path(__file__).resolve().parent / "assets" / "headshot.jpg"
 UW_CREST = Path(__file__).resolve().parent / "assets" / "uw-crest.png"
+PROJECT_SHOTS = Path(__file__).resolve().parent / "assets" / "projects"
 
 W, H = 1280, 300
 CX, CY = W / 2, H / 2
-LOOP = 10.0
+LOOP = 12.0
 
 # palette: apple light, icy blue accent
 BG = "#fbfbfd"
@@ -60,6 +61,15 @@ STATUS = [
 ]
 EMOJI_W = 42  # approximate system emoji advance at 36px
 LOGO_H = 30
+# featured projects: (name, emoji, screenshot) taken from each repo's README
+PROJECTS = [
+    ("agora", "💰", "agora.jpg"),
+    ("elenchus", "🧐", "elenchus.jpg"),
+    ("geosify", "🏝️", "geosify.jpg"),
+    ("watsmygpa", "👨‍🎓", "watsmygpa.jpg"),
+]
+CARD_W, CARD_H, CARD_GAP = 250, 156, 28
+
 # end lockup: headshot + name as a logo. NAME_W is the rendered width of NAME
 # in Instrument Serif at 116px (measured with fontTools; update if NAME changes)
 NAME_W = 456
@@ -214,10 +224,10 @@ def scene_name():
             (0, tf(1, op=1), STEP),
             (1.9, tf(1, op=1), EASE_IN),
             (2.2, tf(0.99, dy=-12, op=0), STEP),
-            (8.3, tf(1.03, dx=lock_dx, dy=18, op=0), EXPO_OUT),
-            (8.85, tf(1, dx=lock_dx, op=1), LINEAR),
-            (9.4, tf(1, dx=lock_dx, op=1), GLIDE),
-            (10, tf(1, op=1), LINEAR),
+            (10.3, tf(1.03, dx=lock_dx, dy=18, op=0), EXPO_OUT),
+            (10.85, tf(1, dx=lock_dx, op=1), LINEAR),
+            (11.4, tf(1, dx=lock_dx, op=1), GLIDE),
+            (LOOP, tf(1, op=1), LINEAR),
         ],
         origin(142),
     )
@@ -226,8 +236,8 @@ def scene_name():
             (0, SHARP, STEP),
             (1.9, SHARP, EASE_IN),
             (2.2, 14, STEP),
-            (8.3, 14, EXPO_OUT),
-            (8.85, SHARP, LINEAR),
+            (10.3, 14, EXPO_OUT),
+            (10.85, SHARP, LINEAR),
         ]
     )
     name = (
@@ -244,14 +254,14 @@ def scene_lockup():
     hx, hy, r = left + AVATAR_R, 140, AVATAR_R
     cls = anim(
         [
-            (8.25, tf(0.85, op=0), EXPO_OUT),
-            (8.8, tf(1, op=1), LINEAR),
-            (9.35, tf(1, op=1), GLIDE),
-            (9.85, tf(0.8, dx=60, op=0), STEP),
+            (10.25, tf(0.85, op=0), EXPO_OUT),
+            (10.8, tf(1, op=1), LINEAR),
+            (11.35, tf(1, op=1), GLIDE),
+            (11.85, tf(0.8, dx=60, op=0), STEP),
         ],
         f"transform-box:view-box;transform-origin:{hx}px {hy}px",
     )
-    fid = blur([(8.25, 16, EXPO_OUT), (8.8, SHARP, LINEAR), (9.35, SHARP, GLIDE), (9.85, 16, STEP)])
+    fid = blur([(10.25, 16, EXPO_OUT), (10.8, SHARP, LINEAR), (11.35, SHARP, GLIDE), (11.85, 16, STEP)])
     data = base64.b64encode(HEADSHOT.read_bytes()).decode()
     return (
         f'<clipPath id="avatar"><circle cx="{hx}" cy="{hy}" r="{r}"/></clipPath>'
@@ -344,12 +354,36 @@ def status_line(emoji, text, kind, text_w, y, start, t_out, rng):
     return blur_fade("".join(parts), start, t_out, y=y - 12, settle=0.4, rise=14, amount=10)
 
 
+def scene_projects():
+    """Four featured projects as screenshot cards, blurring in left to right."""
+    left = CX - (4 * CARD_W + 3 * CARD_GAP) / 2
+    top = 46
+    push = anim([(6.8, "transform:scale(1)", LINEAR), (8.2, "transform:scale(1.02)", LINEAR)], origin())
+    cards = []
+    for i, (name, emoji, shot) in enumerate(PROJECTS):
+        x = left + i * (CARD_W + CARD_GAP)
+        cid = uid("c")
+        data = base64.b64encode((PROJECT_SHOTS / shot).read_bytes()).decode()
+        card = (
+            f'<rect x="{x + 4}" y="{top + 8}" width="{CARD_W - 8}" height="{CARD_H}" rx="16" fill="#0b2a4a" fill-opacity=".07"/>'
+            f'<clipPath id="{cid}"><rect x="{x}" y="{top}" width="{CARD_W}" height="{CARD_H}" rx="14"/></clipPath>'
+            f'<image href="data:image/jpeg;base64,{data}" x="{x}" y="{top}" width="{CARD_W}" height="{CARD_H}" '
+            f'preserveAspectRatio="xMidYMin slice" clip-path="url(#{cid})"/>'
+            f'<rect x="{x + 0.5}" y="{top + 0.5}" width="{CARD_W - 1}" height="{CARD_H - 1}" rx="13.5" fill="none" stroke="{BORDER}"/>'
+            f'<text class="serif" x="{x + CARD_W / 2}" y="{top + CARD_H + 46}" font-size="34" text-anchor="middle" fill="{INK}">'
+            f'{name} <tspan font-size="24">{emoji}</tspan></text>'
+        )
+        t_in = 6.35 + i * 0.09
+        cards.append(blur_fade(card, t_in, 8.2 + i * 0.03, y=top + CARD_H / 2, settle=0.5, rise=20, amount=12))
+    return f'<g class="{push}">{"".join(cards)}</g>'
+
+
 def scene_status():
     rng = random.Random(2027)
     lines = [
         status_line(emoji, text, kind, text_w, y, start, t_out, rng)
         for (emoji, text, kind, text_w), y, start, t_out in zip(
-            STATUS, [100, 158, 216], [6.35, 6.5, 6.65], [8.1, 8.15, 8.2]
+            STATUS, [100, 158, 216], [8.35, 8.5, 8.65], [10.1, 10.15, 10.2]
         )
     ]
     return f'<g font-size="36" letter-spacing="-.6">{"".join(lines)}</g>'
@@ -359,7 +393,7 @@ def scene_status():
 
 def build():
     bg_glow = glow()
-    scenes = scene_name() + scene_roll() + scene_hero() + scene_status() + scene_lockup()
+    scenes = scene_name() + scene_roll() + scene_hero() + scene_projects() + scene_status() + scene_lockup()
 
     style = "\n".join(
         [
@@ -375,7 +409,7 @@ def build():
         ]
     )
 
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="ayaan faisal: welcome to my github. always building, experimenting, vibecoding. you can just build things. student at uwaterloo, interning at tribalscale, seeking summer 2027 internships.">
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="ayaan faisal: welcome to my github. always building, experimenting, vibecoding. you can just build things. featured projects: agora, elenchus, geosify, watsmygpa. student at uwaterloo, interning at tribalscale, seeking summer 2027 internships.">
 <style>
 {style}
 </style>
