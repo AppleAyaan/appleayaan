@@ -34,7 +34,7 @@ An Apple-style ad on a minimal profile: light, simple, clean, fast, with smooth 
 
 - Every animation shares one 12s clock. Times in the script are in seconds and are converted to keyframe percentages (CSS) or keyTimes (SMIL).
 - The lockup and logo placement depend on measured text widths (`NAME_W` and the widths in `STATUS`). If you change that text, re-measure it with fontTools (see below) or the layout will drift off center. `EMOJI_W` is an estimate, because emoji widths vary slightly by OS.
-- The glow drifts on its own independent cycles (10s and 5s), so it never restarts and doesn't need to line up with the 12s scene loop, so the background loops cleanly.
+- The glow drifts on its own independent cycles (10s and 5s), so it never restarts and doesn't need to line up with the 12s scene loop.
 - The decode frames come from a fixed random seed, so rebuilds are reproducible.
 - `prefers-reduced-motion` pauses the CSS motion.
 - Fonts are licensed under OFL (see `scripts/fonts/OFL-*.txt`). The subsets only contain the characters the banner uses.
