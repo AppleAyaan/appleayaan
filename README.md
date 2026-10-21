@@ -12,7 +12,7 @@
 
 📷 _**creator, builder, philanthropist, investor...**_
 
-<a href="https://www.ayaanfaisal.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.icons8.com/?size=100&id=DuuipuI9mFC8&format=png&color=ffffff"/><img src="https://img.icons8.com/?size=100&id=DuuipuI9mFC8&format=png&color=1d1d1f" width="35" alt="website"/></picture></a>
-<a href="https://www.linkedin.com/in/ayaanfaisal18/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.icons8.com/?size=100&id=447&format=png&color=ffffff"/><img src="https://img.icons8.com/?size=100&id=447&format=png&color=1d1d1f" width="35" alt="linkedin"/></picture></a>
-<a href="https://www.x.com/ayaanyyz/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.icons8.com/?size=100&id=YfCbGWCWcuar&format=png&color=ffffff"/><img src="https://img.icons8.com/?size=100&id=YfCbGWCWcuar&format=png&color=1d1d1f" width="35" alt="x"/></picture></a>
-<a href="https://www.instagram.com/ayaanframes"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.icons8.com/?size=100&id=eRJfQw0Zs44S&format=png&color=ffffff"/><img src="https://img.icons8.com/?size=100&id=eRJfQw0Zs44S&format=png&color=1d1d1f" width="35" alt="instagram"/></picture></a>
+<a href="https://www.ayaanfaisal.com"><img src="https://img.icons8.com/?size=100&id=DuuipuI9mFC8&format=png&color=cfeaff" width="35" alt="website"/></a>
+<a href="https://www.linkedin.com/in/ayaanfaisal18/"><img src="https://img.icons8.com/?size=100&id=447&format=png&color=cfeaff" width="35" alt="linkedin"/></a>
+<a href="https://www.x.com/ayaanyyz/"><img src="https://img.icons8.com/?size=100&id=YfCbGWCWcuar&format=png&color=cfeaff" width="35" alt="x"/></a>
+<a href="https://www.instagram.com/ayaanframes"><img src="https://img.icons8.com/?size=100&id=eRJfQw0Zs44S&format=png&color=cfeaff" width="35" alt="instagram"/></a>
