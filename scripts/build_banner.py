@@ -118,9 +118,15 @@ def anim(frames, extra=""):
 
 
 def blur(frames):
-    """Register an animated blur filter and return its id.
+    """Register an animated blur filter and return a class that applies it.
 
     frames: list of (time_s, std_deviation, easing_into_next_frame).
+
+    The filter is only attached (via CSS) while the blur amount is changing,
+    i.e. during the transitions themselves; while content holds sharp, or sits
+    hidden fully blurred, it gets filter:none. WebKit rasterizes filtered SVG
+    content at low resolution, so leaving even a near-zero blur attached makes
+    text soft on high-DPI phone screens.
     """
     fid = uid("f")
     frames = pad(frames)
@@ -134,7 +140,11 @@ def blur(frames):
         f'values="{values}" keyTimes="{times}" calcMode="spline" keySplines="{splines}"/>'
         f"</feGaussianBlur></filter>"
     )
-    return fid
+    toggle = [
+        (t, f"filter:url(#{fid})" if v != frames[i + 1][1] else "filter:none", STEP)
+        for i, (t, v, _) in enumerate(frames[:-1])
+    ]
+    return anim(toggle)
 
 
 def tf(scale=1.0, dx=0, dy=0, op=None):
@@ -167,7 +177,7 @@ def blur_fade(inner, t_in, t_out, y=CY, settle=0.5, exit=0.3, rise=18, amount=14
         ],
         origin(y),
     )
-    fid = blur(
+    fcls = blur(
         [
             (t_in, amount, EXPO_OUT),
             (t_in + settle, SHARP, LINEAR),
@@ -175,7 +185,7 @@ def blur_fade(inner, t_in, t_out, y=CY, settle=0.5, exit=0.3, rise=18, amount=14
             (t_out, amount, STEP),
         ]
     )
-    return f'<g class="{cls}" filter="url(#{fid})">{inner}</g>'
+    return f'<g class="{fcls}"><g class="{cls}">{inner}</g></g>'
 
 
 def font_face(family, file, weight=400, style="normal"):
@@ -231,7 +241,7 @@ def scene_name():
         ],
         origin(142),
     )
-    fid = blur(
+    fcls = blur(
         [
             (0, SHARP, STEP),
             (1.9, SHARP, EASE_IN),
@@ -241,8 +251,8 @@ def scene_name():
         ]
     )
     name = (
-        f'<g class="{cls}" filter="url(#{fid})"><text class="serif" x="{CX}" y="{NAME_Y}" font-size="116" '
-        f'letter-spacing="-1.5" text-anchor="middle" fill="{INK}">{NAME}</text></g>'
+        f'<g class="{fcls}"><g class="{cls}"><text class="serif" x="{CX}" y="{NAME_Y}" font-size="116" '
+        f'letter-spacing="-1.5" text-anchor="middle" fill="{INK}">{NAME}</text></g></g>'
     )
     sub = f'<text class="sans" x="{CX}" y="226" font-size="24" fill="{GRAY}" text-anchor="middle">{SUBTITLE}</text>'
     return name + blur_fade(sub, 0.25, 2.15, y=217, rise=10, amount=8)
@@ -261,13 +271,13 @@ def scene_lockup():
         ],
         f"transform-box:view-box;transform-origin:{hx}px {hy}px",
     )
-    fid = blur([(10.25, 16, EXPO_OUT), (10.8, SHARP, LINEAR), (11.35, SHARP, GLIDE), (11.85, 16, STEP)])
+    fcls = blur([(10.25, 16, EXPO_OUT), (10.8, SHARP, LINEAR), (11.35, SHARP, GLIDE), (11.85, 16, STEP)])
     data = base64.b64encode(HEADSHOT.read_bytes()).decode()
     return (
         f'<clipPath id="avatar"><circle cx="{hx}" cy="{hy}" r="{r}"/></clipPath>'
-        f'<g class="{cls}" filter="url(#{fid})">'
+        f'<g class="{fcls}"><g class="{cls}">'
         f'<image href="data:image/jpeg;base64,{data}" x="{hx - r}" y="{hy - r}" width="{2 * r}" height="{2 * r}" clip-path="url(#avatar)"/>'
-        f'<circle cx="{hx}" cy="{hy}" r="{r - 0.5}" fill="none" stroke="{BORDER}"/></g>'
+        f'<circle cx="{hx}" cy="{hy}" r="{r - 0.5}" fill="none" stroke="{BORDER}"/></g></g>'
     )
 
 
@@ -349,8 +359,8 @@ def status_line(emoji, text, kind, text_w, y, start, t_out, rng):
             [(done, tf(0.6, op=0), EXPO_OUT), (done + 0.4, tf(1, op=1), LINEAR)],
             f"transform-box:view-box;transform-origin:{lx + logo_w / 2}px {y - LOGO_H / 2}px",
         )
-        fid = blur([(done, 8, EXPO_OUT), (done + 0.4, SHARP, LINEAR)])
-        parts.append(f'<g class="{pop}" filter="url(#{fid})">{mark}</g>')
+        fcls = blur([(done, 8, EXPO_OUT), (done + 0.4, SHARP, LINEAR)])
+        parts.append(f'<g class="{fcls}"><g class="{pop}">{mark}</g></g>')
     return blur_fade("".join(parts), start, t_out, y=y - 12, settle=0.4, rise=14, amount=10)
 
 
