@@ -50,7 +50,7 @@ EMOJI = "'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji'"
 NAME = "ayaan faisal"
 SUBTITLE = "welcome to my github 👋"
 ALWAYS = "always"
-ROLL_WORDS = [("building.", "🛠️"), ("experimenting.", "🧪"), ("vibecoding.", "✨")]
+ROLL_WORDS = [("building.", "🛠️"), ("experimenting.", "🧪"), ("tokenmaxxing.", "💸")]
 HERO = ("you can just ", "build", " things.")
 # (emoji, text, logo, text width in Inter 500 @ 36px with -0.6 tracking; measured
 # with fontTools, update if the text changes)
@@ -419,7 +419,7 @@ def build():
         ]
     )
 
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="ayaan faisal: welcome to my github. always building, experimenting, vibecoding. you can just build things. featured projects: agora, elenchus, geosify, watsmygpa. student at uwaterloo, interning at tribalscale, seeking summer 2027 internships.">
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="ayaan faisal: welcome to my github. always building, experimenting, tokenmaxxing. you can just build things. featured projects: agora, elenchus, geosify, watsmygpa. student at uwaterloo, interning at tribalscale, seeking summer 2027 internships.">
 <style>
 {style}
 </style>
