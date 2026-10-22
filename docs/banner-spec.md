@@ -23,7 +23,7 @@ An Apple-style ad on a minimal profile: light, simple, clean, fast, with smooth 
 | time | scene |
 |---|---|
 | 0.0–2.2s | **ayaan faisal** is already centered and sharp (the loop point). *welcome to my github 👋* blurs in underneath, then both blur out |
-| 2.25–4.7s | *always* + a rolling italic word in ice gradient: **building. 🛠️** → **experimenting. 🧪** → **vibecoding. ✨** Each word blur-crossfades into the next |
+| 2.25–4.7s | *always* + a rolling italic word in ice gradient: **building. 🛠️** → **experimenting. 🧪** → **tokenmaxxing. ✨** Each word blur-crossfades into the next |
 | 4.75–6.3s | **you can just *build* things.** blurs in, slowly pushes in, then blurs out |
 | 6.35–8.3s | featured projects: four screenshot cards (taken from each repo's README) blur in left to right, staggered 0.09s: **agora 💰 · elenchus 🧐 · geosify 🏝️ · watsmygpa 👨‍🎓**, with a slow push-in |
 | 8.35–10.2s | status lines blur in staggered 0.15s, each decode-scrambling (gray noise → ink, 8 frames × 45ms); the @ is ice blue, and the logos pop in after the text: 🎓 student @ uwaterloo [crest] · 💼 interning @ tribalscale [mark] · 🔭 seeking summer 2027 internships |
