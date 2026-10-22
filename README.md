@@ -16,7 +16,7 @@
   <img src="https://cdn.simpleicons.org/spotify/1DB954" width="28" align="middle" alt="spotify" />
   &nbsp;<b>listening to</b>&nbsp;
   <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=vl7amcaakvwrf4jrzfmht9qr6&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=vl7amcaakvwrf4jrzfmht9qr6&cover_image=true&theme=spotify-embed&mode=light&show_offline=false&interchange=false&profanity=false&hide_remaster=false&bar_color=1DB954&bar_color_cover=false" align="middle" alt="open in spotify" />
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=vl7amcaakvwrf4jrzfmht9qr6&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=true" align="middle" alt="open in spotify" />
   </a>
 </p>
 
