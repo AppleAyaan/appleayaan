@@ -13,10 +13,13 @@
 📷 _**creator, builder, philanthropist, investor...**_
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/spotify/1DB954" width="28" align="middle" alt="spotify" />
-  &nbsp;<b>listening to</b>&nbsp;
+  <img src="https://cdn.simpleicons.org/spotify/1DB954" width="20" align="top" alt="spotify" />
+  &nbsp;<b>listening to</b>
+</p>
+
+<p align="center">
   <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=vl7amcaakvwrf4jrzfmht9qr6&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=vl7amcaakvwrf4jrzfmht9qr6&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=true" align="middle" alt="open in spotify" />
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=vl7amcaakvwrf4jrzfmht9qr6&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=90ee90&bar_color_cover=false" alt="open in spotify" />
   </a>
 </p>
 
