@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="ayaan faisal: welcome to my github. always building, experimenting, vibecoding. you can just build things. student at uwaterloo, interning at tribalscale, seeking summer 2027 internships." />
+  <img src="assets/banner.svg" width="100%" alt="ayaan faisal: welcome to my github. always building, experimenting, tokenmaxxing. you can just build things. student at uwaterloo, interning at tribalscale, seeking summer 2027 internships." />
 </p>
 
 🎓 2B data science @ [**University of Waterloo**](https://uwaterloo.ca/) 
