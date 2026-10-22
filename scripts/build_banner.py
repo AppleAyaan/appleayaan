@@ -50,7 +50,7 @@ EMOJI = "'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji'"
 NAME = "ayaan faisal"
 SUBTITLE = "welcome to my github 👋"
 ALWAYS = "always"
-ROLL_WORDS = [("building.", "🛠️"), ("experimenting.", "🧪"), ("tokenmaxxing.", "✨")]
+ROLL_WORDS = [("building.", "🛠️"), ("experimenting.", "🧪"), ("tokenmaxxing.", "💸")]
 HERO = ("you can just ", "build", " things.")
 # (emoji, text, logo, text width in Inter 500 @ 36px with -0.6 tracking; measured
 # with fontTools, update if the text changes)
